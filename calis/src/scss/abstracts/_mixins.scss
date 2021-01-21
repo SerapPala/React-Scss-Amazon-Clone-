@@ -1,0 +1,60 @@
+
+@mixin flexCenter{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flexSpaceBetween{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+@mixin flexVertical {
+    display:flex;
+    align-items: center;
+}
+
+@mixin VerticalAlign{
+    align-items:center;
+    text-align:center;
+}
+
+@mixin FlexAlignCenter{
+    display:flex;
+    align-items: center;
+}
+
+@mixin FlexDirectionColumn{
+    display:flex;
+   flex-direction: column;
+}
+
+@mixin FlexContentEvenly{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+@mixin FlexJustifyCenter{
+    display:flex;
+    justify-content: center;
+}
+
+@mixin CenterFlexEnd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@mixin FlexColumnBetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@mixin FlexDirectionAlignCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color: rgb(234,237,237);
+    margin:0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 114rem;
+    margin:0 auto;
+}
